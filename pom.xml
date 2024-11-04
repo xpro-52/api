@@ -47,6 +47,12 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
+        <!-- Spring -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
         <!-- コード補助 -->
         <dependency>
             <groupId>org.projectlombok</groupId>
