@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.api.ap.sample.domain.repository.SampleRepository">
-    <select id="selectById" resultType="com.example.api.db.entity.Sample">
+    <select id="selectById" resultType="com.example.common.db.entity.Sample">
         SELECT
             seq,
             id,
@@ -15,7 +15,7 @@
         WHERE
             id = #{id}
     </select>
-    <select id="selectAll" resultType="com.example.api.db.entity.Sample">
+    <select id="selectAll" resultType="com.example.common.db.entity.Sample">
         SELECT
             seq,
             id,

@@ -3,6 +3,6 @@
 
 <configuration>
     <typeHandlers>
-        <package name="com.example.api.db.handler" />
+        <package name="com.example.common.db.handler" />
     </typeHandlers>
 </configuration>

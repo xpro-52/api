@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
-import com.example.api.db.entity.Sample;
+import com.example.common.db.entity.Sample;
 
 @Mapper
 public interface SampleRepository {

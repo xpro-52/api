@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.api.ap.sample.domain.model.SampleModel;
 import com.example.api.ap.sample.domain.repository.SampleRepository;
-import com.example.api.db.entity.Sample;
+import com.example.common.db.entity.Sample;
 import com.example.api.fw.exception.ResourceNotFoundException;
 
 @Service
